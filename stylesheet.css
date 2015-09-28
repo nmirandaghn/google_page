@@ -1,0 +1,90 @@
+* {
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+.header {
+  height:30px;
+  border:1px solid;
+  float: right;
+}
+
+.user_name, .gmail, .images, .apps, .user_av, .notif, .search, .lucky, .advert, .business, .about, .privacy, .terms, .settings {
+  display: inline-block;
+}
+
+.user_name, .gmail, .images, .apps, .user_av, .notification {
+  vertical-align: middle;
+}
+
+.user_name {
+}
+
+.gmail {
+}
+
+.images {
+}
+
+.apps {
+}
+
+.user_av {
+  height:30px;
+  width:30px;
+  border-radius: 25px;
+  border: 1px solid;
+  text-align: center;
+  margin-top: -2px;
+}
+
+.content {
+  padding-top: 12%;
+  text-align: center;
+}
+
+.google {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 78px;
+  padding-bottom: 2%;
+}
+
+.google span {
+  font-size: 78px;
+}
+
+.search_text {
+  margin-top:10px;
+  width:40%;
+  border: 1px solid;
+  margin: auto;
+}
+
+#s {
+  font-size:14px;
+  height:30px; 
+  width:50%;
+  border: none;
+}
+
+.search {
+  padding-top: 2%;
+}
+
+.footer {
+  background-color: gray;
+  margin-top: 120px;
+  height: 40px;
+  border: 1px solid;
+  width:100%;
+  vertical-align: middle;
+}
+
+.footer1 {
+  float: left;
+}
+
+.footer2 {
+  float: right;
+}
