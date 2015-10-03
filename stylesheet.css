@@ -4,16 +4,17 @@
 }
 
 .header {
-  height:30px;
-  border:1px solid;
+  height:10%;
   float: right;
+  display: block;
 }
 
 .user_name, .gmail, .images, .apps, .user_av, .notif, .search, .lucky, .advert, .business, .about, .privacy, .terms, .settings {
   display: inline-block;
+  padding-right: 20px;
 }
 
-.user_name, .gmail, .images, .apps, .user_av, .notification {
+.user_name, .gmail, .images, .apps, .user_av, .notif {
   vertical-align: middle;
 }
 
@@ -27,19 +28,33 @@
 }
 
 .apps {
+  background-image: url("https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png");
+  background-position: -69px -854px;
+  width:20px;
+  height:30px;
+}
+
+.notif {
+  background-image: url("https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png");
+  background-position: -1px -717px;
+  width:10px;
+  height:30px;
 }
 
 .user_av {
-  height:30px;
+  background-image: url("https://avatars2.githubusercontent.com/u/558894?v=3&s=40");
   width:30px;
-  border-radius: 25px;
-  border: 1px solid;
-  text-align: center;
+  height:44px;
+  border-radius: 50px;
+  text-align: right;
   margin-top: -2px;
+  padding-left: 5px;
+  padding-right: 10px;
 }
 
 .content {
-  padding-top: 12%;
+  height: 80%;
+  padding-top: 12.5%;
   text-align: center;
 }
 
@@ -73,15 +88,18 @@
 }
 
 .footer {
-  background-color: gray;
-  margin-top: 120px;
-  height: 40px;
-  border: 1px solid;
+  background-color: lightgray;
+  margin-top: 15.5%;
+  height: 10%;
   width:100%;
-  vertical-align: middle;
+  vertical-align: top;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .footer1 {
+  padding-right: 20px;
+  padding-left: 20px;
   float: left;
 }
 
